@@ -1,0 +1,22 @@
+1、查询本月的记录
+
+	select * from 表名 where MONTH(日期字段) = MONTH(NOW());
+
+
+2、查询本日记录：
+
+	select * from person where date=date(now());
+
+3、查询本周记录：
+
+	SELECT * FROM 表名 WHERE YEARWEEK( date_format(日期字段,'%Y-%m-%d' ) ) = YEARWEEK( now() ) ;
+
+
+4、查询指定月份的记录：
+
+	select * from person where month(date)=9;
+
+
+5、查询指定日的记录：
+
+	select * from person where day(date)=6;

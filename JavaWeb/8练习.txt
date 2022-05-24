@@ -1,0 +1,13 @@
+1、SmartUpload组件
+	认识SmartUpload组件并安装
+	使用SmartUpload完成单个文件的上传、多个文件的上传；
+	混合表单的处理；
+	为上传的文件重命名，以解决文件覆盖问题；
+	限制上传文件的类型；
+
+2、FileUpload组件
+	认识FileUpload组件；
+	安装FileUpload组件；
+	接收上传内容；
+	保存上传内容；
+	开发FileUpload组件工具；

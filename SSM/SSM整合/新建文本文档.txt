@@ -1,0 +1,35 @@
+service：存放服务层（服务层）
+dao：存放持久层（持久层）
+controller：存放控制器（控制层）
+servlet：存放Servlet
+filter：存放过滤器
+interceptor：存放拦截器
+validator：存放验证器
+converter：存放类型转换器
+formatter：存放格式化转换器
+tools：存放其他工具类
+exception：存放自定义异常类
+upload：存放所有上传的文件
+po：存放数据对象
+
+
+WEB-INF目录下：
+	classes：存放所有*.class文件
+	resource：存放所有的资源文件
+	tags：存放所有标签文件，例如JSTL标签文件
+	lib：存放所需jar包
+	springmvc-servlet.xml：Spring MVC配置文件
+	error：存放错误页
+	
+
+
+
+1、SSM中的声明式事务管理在Service层完成
+2、视图层与控制层交互、控制器调用业务层、业务层调用持久层、持久层对数据进行操作，所以，在控制层必然存在依赖注入业务层接口对象，在业务层必然注入持久层接口对象
+3、web.xml中配置的有：Spring Ioc容器、前端控制器、过滤器、标签文件的映射
+4、Spring配置文件applicationContext.xml中配置的有：数据源、数据源事务管理器、事务注解驱动器、MyBatis工厂、映射MyBatis中的Mapper（配置文件放置在src目录中）
+5、mybatis配置文件mybatis-config.xml中配置的有：对映射器进行映射（配置文件放置在classpath目录下）
+6、springmvc配置文件springmvc-servlet.xml中配置的有：扫描包、视图解析器、拦截器（配置文件放在WEB-INF目录下）静态文件的映射
+7、创建表-->创建po类-->创建映射器（映射文件和接口）-->修改Mybatis配置文件 -->创建业务层（接口和实现类）
+		
+

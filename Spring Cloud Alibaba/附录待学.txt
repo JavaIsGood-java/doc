@@ -1,0 +1,9 @@
+在学习本书的过程中，发现有些技术本书讲解较浅，需要单独去学：
+	1、Dubbo
+	2、ZooKeeper
+	3、WebService
+	4、curl工具的使用
+	5、在Linux系统下安装MySQL、启动和关闭MySQL服务、弄清MySQL配置文件的位置以及数据的存放位置、设置开机自启动、查看开机是否自启动等
+	6、在Linux中安装Maven，配置本地仓库位置，配置远程仓库
+	7、在Linux中安装Git
+	8、lombok

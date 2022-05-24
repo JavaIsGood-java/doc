@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserDao">
+
+	<cache></cache>
+
+	<!-- 根据用户名判断用户是否存在，存在则返回该用户的信息，否则返回null -->
+	<select id="isExist" parameterType="com.po.User" resultType="com.po.User">
+		select * from user where username=#{username}
+	</select>
+	
+	<!-- 修改用户密码 -->
+	<update id="changePassword" parameterType="com.po.User">
+		update user set password=#{password} where username=#{username}
+	</update>
+	
+	<!-- 创建用户 -->
+	<insert id="createUser" parameterType="com.po.User">
+		insert into user(username,password,email,ztime,code) values(#{username},#{password},#{email},#{ztime},#{code})
+	</insert>
+	
+	<!-- 改变用户状态，使得用户成功激活 -->
+	<update id="changeUserOfCode" parameterType="com.po.User">
+		update user set code="" where username=#{username} and code=#{code} and email=#{email}
+	</update>
+	
+	<!-- 根据邮箱判断用户是否存在或判断邮箱是否被占用，存在则返回该用户信息，否则返回null -->
+	<select id="selectByEmail" parameterType="com.po.User" resultType="com.po.User">
+		select * from user where email=#{email}
+	</select>
+	
+	<delete id="deleteUserByCode" parameterType="String">
+		delete from user where code!=#{code}
+	</delete>
+	
+</mapper>

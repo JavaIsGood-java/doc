@@ -1,0 +1,42 @@
+class Operate{
+	private String[] info;
+	public Operate(){
+	}
+	public Operate(String info[]){
+		this.info=info;
+	}
+	public String login(){
+		Check check=new Check();
+		this.isExit();
+		String name=this.info[0];
+		String password=this.info[1];
+		String str=null;
+		if(check.valiable(name,password)){
+			str="登录成功";
+		}else{
+			str="用户名或密码错误";
+		}
+		return str;
+	}
+	public void isExit(){
+		if(this.info.length!=2){
+			System.out.println("参数错误");
+			System.exit(3);
+		}
+	}
+}
+class Check{
+	public boolean valiable(String name,String password){
+		if("liuqing".equals(name)&&"lq123456".equals(password)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+}
+public class LoginDemo{
+	public static void main(String[] args){
+		Operate oper=new Operate(args);
+		System.out.println(oper.login());
+	}
+}

@@ -1,0 +1,15 @@
+1、什么是JavaBean、满足什么要求？JavaBean有何优点
+
+2、Web项目的标准目录结构
+
+3、使用JavaBean的两种方式
+
+4、JavaBean在表单上的应用
+
+5、使用<jsp:setProperty/>标签为JavaBean对象的属性设置值
+
+6、使用<jsp:getProperty/>标签取得JavaBean对象属性的值
+
+7、设置并理解JavaBean对象的保存范围
+
+8、删除指定范围的JavaBean

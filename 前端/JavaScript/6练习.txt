@@ -1,0 +1,22 @@
+1、什么是BOM对象
+	JavaScript组成
+	认识BOM及BOM结构
+
+2、window对象
+	全局作用域
+	弹出对话框和窗口
+	窗口的位置和大小
+	操作框架
+	定时器的应用
+
+3、location对象
+	更改URL
+	获取URL参数
+
+4、history对象
+	历史记录跳转
+	无刷新更改URL地址
+
+5、navigator对象
+
+6、screen对象

@@ -1,0 +1,35 @@
+1、Servlet简介
+	什么是Servlet？
+	Servlet的最大好处？
+	熟悉Servlet基本处理流程
+	熟悉Servlet接口的继承结构
+
+2、编写第一个Servlet程序，熟练配置Servlet
+
+3、Servlet生命周期
+	熟悉Servlet的生命周期
+	能够编写Servlet程序验证Servlet生命周期
+	配置Servlet自动加载
+
+4、配置Servlet的初始化参数，在Servlet中取得配置的初始化参数
+
+5、在Servlet中取得其他内置对象，如session、application
+
+6、在Servlet中完成客户端跳转和服务器端跳转
+
+7、Model1模式与Model2模式的思想、优缺点，简单Java类的定义原则；
+
+8、熟悉MVC设计模式的思想，能够编写例证。
+
+9、过滤器
+	过滤器的作用；
+	编写程序实现过滤器和配置过滤器；
+	掌握过滤器的基本应用，能够实现编码过滤器和身份验证过滤器；
+
+10、监听器
+	认识监听器，监听器有何作用？
+	对application进行监听的话，有哪些监听？
+	对session进行监听的话，有哪些监听？
+	对request进行监听的话，有哪些监听？
+	监听器的配置；
+	session的创建与销毁

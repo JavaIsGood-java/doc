@@ -1,0 +1,13 @@
+1、Spring IoC的基本概念
+	什么是IoC？
+	IoC的核心思想是什么？
+	如果实现IoC？
+
+2、实现Spring IoC容器
+	使用BeanFactory实现Spring IoC容器；
+	使用ApplicationContext实现Spring IoC容器，有哪几种方式？
+
+3、依赖注入的类型
+	什么是依赖注入？
+	如何实现依赖注入？怎样通过构造方法实现注入？又怎样通过属性的setter方法实现注入？
+	依赖注入的实现原理是什么？

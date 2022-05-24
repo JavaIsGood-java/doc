@@ -1,0 +1,45 @@
+复制当前行（不选中内容时）：Ctrl+C
+删除当前行：Ctrl+Shift+K
+将当前行上移/下移：Alt+Up/Down
+将当前行向上/向下复制：Shift+Alt+Up/Down
+查找：Ctrl+F
+替换：Ctrl+H
+在整个文件夹中查找（相当于将左侧资源管理器切换到搜索）：Ctrl+Shift+F
+格式化代码：Shift+Alt+F
+在当前行下边插入一行: Ctrl+Enter
+在当前行上方插入一行 Ctrl+Shift+Enter
+代码行缩进: Ctrl+[ 、 Ctrl+]
+注释：Ctrl+/
+选择当前行：CTRL+L
+
+
+打开一个新窗口VSCode：打开一个新窗口： Ctrl+Shift+N
+关闭当前活动的VSCode窗口： Ctrl+Shift+W
+新建文件：Ctrl+N
+文件之间切换 Ctrl+Tab
+
+
+
+多光标使用：
+1、按住Alt，用鼠标左键点击，单击多少次就出现多少个光标
+2、按Ctrl+D将会选中光标所在词，再按一次将从第一个选中词开始向后选中相同的词，按n次将选中n个相同的词，也可以Ctrl+Shift+L全选中相同词，此时按任意方向键，即可出现多个光标
+3、按住Ctrl+Alt，再按键盘上向上或者向下的键，可以使一列上出现多个光标。
+4、选中一段文字，按Shift+Alt+i，可以在每行末尾出现光标
+5、按Shift+Alt，再使用鼠标拖动，可以出现竖直的列光标 ，同时可以选中多列。
+注意：按Esc或Ctrl+U取消多个光标
+
+
+
+
+vscode代码编辑器折叠所有区域的代码快捷键
+查看了使用说明，快捷键如下：
+1. 折叠所有区域代码的快捷键：ctrl+k, ctrl+0;
+                   先按下ctrl和K，再按下ctrl和0; (注意这个是零，不是欧)
+
+2. 展开所有折叠区域代码的快捷键：ctrl +k, ctrl+J;
+
+                   先按下ctrl和K，再按下ctrl和J 
+
+3. 自动格式化代码的快捷键：ctrl+k, ctrl+f;
+
+                   先按下ctrl和K，再按下ctrl和f;

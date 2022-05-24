@@ -1,0 +1,17 @@
+1、初始JavaScript
+	什么是JavaScript
+	JavaScript的由来
+	JavaScript的特点
+	JavaScript与ECAMScript的关系
+
+2、开发工具
+	浏览器
+	代码编辑器
+
+3、JavaScript入门
+	语法规范
+	js引入方式（重点）
+	常用输出语法
+	注释（重点）
+	对象
+	事件

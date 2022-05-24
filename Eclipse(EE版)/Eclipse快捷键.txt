@@ -1,0 +1,9 @@
+删除当前行：Ctrl+D
+
+复制当前行到下一行：Ctrl+ALT+下
+
+复制当前行到上一行：Ctrl+ALT+上
+
+关闭打开的文件选项卡：Ctrl+W
+
+一键导入所需要的类：Ctrl+Shift+O

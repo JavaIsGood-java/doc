@@ -1,0 +1,38 @@
+
+#在seata_order库中创建订单表
+create table tbl_order(
+	id int(11) not null auto_increment,
+	order_no varchar(255) default null,
+	user_id varchar(255) default null,
+	product_code varchar(255) default null,
+	count int default 0,
+	amount int default 0,
+	primary key(id)
+)engine=InnoDB default charset=utf8;
+
+#在seata_repo库中创建库存表
+create table tbl_repo(
+	id int(11) not null auto_increment,
+	product_code varchar(255) default null,
+	name varchar(255) default null,
+	count int(11) default 0,
+	primary key(id),
+	unique key(product_code)
+)engine=InnoDB default charset=utf8;
+
+#在seata_account库中创建账户表
+create table tbl_account(
+	id int(11) not null auto_increment,
+	user_id varchar(255) default null,
+	balance int(11) default 0,
+	primary key(id)
+)engine=InnoDB default charset=utf8;
+
+
+
+#在seata_repo库中tbl_repo表中初始化数据，创建商品
+insert into tbl_repo values(1,'GP2020202001',“键盘”,1000);
+insert into tbl_repo values(2,'GP2020202002',“抱枕”,300);
+
+#在seata_account库中tal_account表中初始化数据，创建用户
+insert into tbl_account values(1,'1001',10000.00);
